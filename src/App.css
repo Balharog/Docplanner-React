@@ -1,0 +1,377 @@
+body{
+  padding:0;
+  margin:0;
+  
+}
+
+/* .nav-bar{
+  padding:0px;
+  width:100%;
+  border: 2px solid green;
+  position:fixed;
+  z-index: 1;
+  top:0px;
+} */
+header{
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: white;
+  padding: 0px 20p;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  
+}
+.logo-docplanner{
+  padding-top:20px;
+}
+
+.nav-menu{
+  display:flex;
+  list-style-type: none;
+  line-height: 2em;
+  padding: 1.33em 0;
+  margin:0;
+  /* border:2px solid royalblue; */
+}
+.nav-menu li {
+  padding: 0 .6em;
+}
+.nav-links{
+  text-decoration: none;
+}
+.ab-us{
+  text-decoration: none;
+  color:#00ccb1;
+}
+.carr{
+  color:grey;
+}
+.carr:hover{
+  color:#00ccb1;
+}
+.dep{
+  color:grey;
+}
+.dep:hover{
+  color:#00ccb1; 
+}
+.drop-link{
+  color:grey; 
+}
+.drop-link:hover{
+  color:#00ccb1; 
+}
+.dropdown-content{
+  display:none;
+}  
+  .drop-link,.carr,.ab-us{
+      text-decoration: none;
+  }
+.dropdown-links{
+  text-decoration: none;
+  color:grey;
+}
+
+.dropdown-content li :hover {
+  background-color:#e5faf8;
+  color:#00b39b;
+}
+
+.nav-links:hover .dropdown-content {
+  display:flex;
+  flex-direction: column; 
+  align-self: flex-end;
+  position: absolute;
+  /* border: 2px solid red; */
+  margin-left: -130px;
+  min-width: 200px;
+  list-style-type: none;
+  padding: 10px 10px;
+  background-color: white;
+}
+.opening-section{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  max-width: 1015px;
+  margin: 30px 444px;
+  padding: 0px 20px 40px;
+  /* border:2px solid red; */
+}
+.section1{
+  margin-top:100px;
+}
+.logo{
+  width:40px;
+  height:39px;
+  margin-bottom: 30px;
+}
+.main-ttl{
+  display:flex;
+  justify-content:center;
+  width:100%;
+  color:#00ccb1;
+  margin-bottom: 30px;
+}
+.presentation-txt{
+  display:flex;
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+.txt1{
+  width: 50%;
+  padding-right: 10px;
+}
+.txt2{
+  width: 50%;
+  padding-left: 10px;
+}
+
+.offer-section{
+  color:white;
+  display: flex;
+  max-width: 1015px;
+  margin: 30px 444px 50px;
+  padding: 0px 20px;
+  /* border:2px solid red; */
+}
+.offer1{
+  width:50%;
+  margin-right: 10px;
+  overflow: hidden;
+  background-color: #00ccb1;
+  border-radius: 10px;
+  padding: 20px;
+}
+.offer2{
+  width:50%;
+  margin-left:10px;
+  overflow: hidden;
+  background-color: #3d83df;
+  border-radius: 10px;
+  padding: 20px;
+}
+.offer-image1{
+  margin-left: 40%;
+}
+.offer-image2{
+  margin-left: 40%;
+  margin-top: 1em;
+}
+.subsidiary-section{
+  display:flex;
+  justify-content: space-between;
+  max-width: 1015px;
+  margin: 30px 444px 50px;
+  padding: 0px 20px;
+  /* border:2px solid red; */
+}
+.sub-sec-ttl{
+  color:#00b39b;
+}
+.subsidiary-list{
+  fill:#c4c4c4;
+  display:flex;
+  padding-top:30px;
+  padding-bottom:30px;
+  padding-left:40px;
+  flex-wrap:wrap;
+}
+.subsidiary-section h2{
+  width: 33%;
+}
+.subsidiary-list li{
+  display:flex;
+  width:168px;
+  height:25px;
+  list-style-type: none;
+}
+.sub-log:hover{
+  fill:#00ccb1;
+}
+.stat-section-container{
+  /* border: 2px solid green; */
+  background-color: #e5faf8;
+  overflow: hidden;
+}
+.stat-section{
+  display:flex;
+  max-width: 1015px;
+  height: 700px;
+  margin: 0px 444px;
+  padding: 0px 20px;
+  /* border:2px solid red; */
+}
+.stat-bloc1{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width:50%;
+  padding: 45px 0px 0px 10px;
+  /* border:2px solid black; */
+}
+.stat-bloc1 p{
+  font-size: 20px;
+
+}
+.stat-bloc1 h2{
+  color:#00b39b;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+.stat-bloc2{
+  width:50%;
+  padding-left: 10px;
+  display:flex;
+  /* border:2px solid black; */
+  position: relative;
+}
+.stat-container-down{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top:40px;
+  box-sizing: border-box;
+  /* border:2px solid black; */
+  width:50%;
+}
+.stat-container-up{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom:40px;
+  box-sizing: border-box;
+  /* border:2px solid black; */
+  width:50%;
+}
+.stat-country{
+  display: inline-flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:10px;
+  margin: 20px;
+  height: 40%;
+  box-sizing: border-box;
+  /* border:2px solid green; */
+  background-color: #ffffff;
+}
+.stat-patients{
+  display: inline-flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:10px;
+  margin: 20px;
+  height:40%;
+  box-sizing: border-box;
+  /* border:2px solid green; */
+  background-color: #ffffff;
+}
+.stat-appointement{
+  display: inline-flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:10px;
+  margin: 20px;
+  height: 40%;
+  box-sizing: border-box;
+  /* border:2px solid green; */
+  background-color: #ffffff;
+}
+.stat-doctors{
+  display: inline-flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:10px;
+  margin:20px;
+  height: 40%;
+  box-sizing: border-box;
+  /* border:2px solid green; */
+  background-color: #ffffff;
+}
+.stat-ttl{
+  color:#00b39b;
+}
+.logo-stat-background{
+  position: absolute;
+  bottom: -120px;
+  left: -150px;
+  background: url(https://www.docplanner.com/img/logo.png) no-repeat;
+}
+*{
+  margin:0
+}
+.opp-container{
+  
+  margin: 0px 444px 40px;
+  padding: 0px 20px;
+  /* border: 2px solid red; */
+}
+.opp-txt{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 30px 250px;
+}
+.opp-txt h2{
+  color:#00b39b;
+}
+.opp-frame{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  width: 31.7%;
+}
+.opp-bar{
+  display:flex;
+  justify-content: space-between;
+  width:100%;
+  padding: 15px;
+}
+.opp-links{
+  min-height: 750px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.opp-but{
+  margin:10px;
+  border-radius: 5px;
+  border: none;
+  height: 30px;
+  font-size: 15;
+  background-color:#3d83df;
+  color:#ffffff;
+}
+.city-name{
+  padding:10px;
+}
+.opp-frame:hover{
+  box-shadow: 5px 10px 50px rgba(0, 0, 0, 0.3);
+  
+}
+footer{
+  border-top:1px solid grey;
+}
+.footer-content{
+  margin: 0px 444px;
+  padding: 40px 20px;
+  text-align: center;
+  color:grey;
+}
+footer a{
+  color:blue;
+}
